@@ -1,7 +1,7 @@
 TEAM_MEMBERS = [
-    {"name": "Amreen", "role": "Developer", "links":["https://www.linkedin.com/in/amreen-rafiq-a35119229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"]},
+    {"name": "Name", "role": "Developer", "links":["your_link"]},
 ]
-EMOJI = "C:/Users/ASHWIN M/Alzheimers_Prediction_System-main/assets/images/emo.webp"
+EMOJI = "emo.webp"
 import streamlit as st
 
 
