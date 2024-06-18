@@ -1,11 +1,11 @@
 import streamlit as st
 from hugchat import hugchat
 from hugchat.login import Login
-NEWS_API = "y886b1766bdc4af69e19811aef4dc9e8"
+NEWS_API = "YOUR_API"
 NEWS_API_KEY = ["NEWS_API"]
 KEYWORD = "alzheimer"
-HF_EMAIL = "amreenrafiq10@gmail.com"
-HF_PASS = "v/PkBzwiJdbW@4!"
+HF_EMAIL = "YOUR_MAIL"
+HF_PASS = "YOUR_PASS"
 BASE_PROMPT = "Hello"
 
 # Login Credentials
