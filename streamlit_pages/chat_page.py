@@ -8,7 +8,7 @@ HF_EMAIL = "YOUR_MAIL"
 HF_PASS = "YOUR_PASS"
 BASE_PROMPT = "Hello"
 
-# Login Credentials
+# Login Credential
 hf_email = HF_EMAIL
 hf_pass = HF_PASS
 
