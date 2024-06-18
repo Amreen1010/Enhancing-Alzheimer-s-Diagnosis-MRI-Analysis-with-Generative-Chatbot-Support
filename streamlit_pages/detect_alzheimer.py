@@ -50,7 +50,7 @@ def alzheimer_detection():
                     st.write("Predicted class:", result)
 
     alzheimer_detector = AlzheimerDetection()
-    model = load_model(r"C:\Users\ASHWIN M\Alzheimers_Prediction_System-main\your_model_name.h5")
+    model = load_model(r"your_model_name.h5")
     alzheimer_detector.run(model)
 
 
