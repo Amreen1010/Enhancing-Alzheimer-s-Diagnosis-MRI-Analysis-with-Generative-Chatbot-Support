@@ -1,15 +1,15 @@
 import streamlit as st
 
 # PAGE CONFIG
-CSS = open("C:\\Users\\ASHWIN M\\Alzheimers_Prediction_System-main\\assets\\css\\styles.css", 'r').read()
+CSS = open("styles.css", 'r').read()
 
 
 # ASSETS
-BACKGROUND = "C:/Users/ASHWIN M/Alzheimers_Prediction_System-main/assets/images/bg.webp"
+BACKGROUND = "bg.webp"
 
-DEFAULT_IMAGE = "C:/Users/ASHWIN M/Alzheimers_Prediction_System-main/assets/images/default.webp"
-SIDE_BANNER = "C:/Users/ASHWIN M/Alzheimers_Prediction_System-main/assets/images/side_banner.webp"
-EMOJI = "C:/Users/ASHWIN M/Alzheimers_Prediction_System-main/assets/images/emo.webp"
+DEFAULT_IMAGE = "default.webp"
+SIDE_BANNER = "side_banner.webp"
+EMOJI = "emo.webp"
 
 # PREDICTION PAGE
 APOE_CATEGORIES = ['APOE Genotype_2,2', 'APOE Genotype_2,3', 'APOE Genotype_2,4', 
@@ -49,5 +49,5 @@ BASE_PROMPT = st.secrets['BASE_PROMPT']
 
 # TEAM MEMBERS PAGE
 TEAM_MEMBERS = [
-    {"name": "Amreen", "role": "Developer", "links":["https://www.linkedin.com/in/arpitsengar", "https://github.com/arpy8"]},
+    {"name": "Name", "role": "Developer", "links":["Linkedin_link", "Github_Link"]},
 ]
