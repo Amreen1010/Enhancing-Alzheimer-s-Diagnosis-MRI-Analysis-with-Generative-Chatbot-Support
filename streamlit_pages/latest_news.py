@@ -3,8 +3,8 @@ import requests
 import streamlit as st
 
 KEYWORD = "alzheimer"
-DEFAULT_IMAGE = "C:/Users/ASHWIN M/Alzheimers_Prediction_System-main/assets/images/default.webp"
-NEWS_API_KEY = "c886b1766bdc4af69e19811aef4dc9e8"
+DEFAULT_IMAGE = "default.webp"
+NEWS_API_KEY = "YOUR_API"
 
 def _get_news():
     response = requests.get(f'https://newsapi.org/v2/everything?q={KEYWORD}&apiKey={NEWS_API_KEY}&language=en&searchIn=title').json()
