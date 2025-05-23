@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 st.markdown(f"<style>{CSS}</style>", unsafe_allow_html=True)
-
+#Setting page background
 def set_page_background(png_file):
     @st.cache_data()
     def get_base64_of_bin_file(bin_file):
