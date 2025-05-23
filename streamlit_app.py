@@ -54,7 +54,7 @@ The predictions provided by this system are for informational purposes only. Con
 For inquiries, you can mail us [here](Mail_ID).
 """)
 
-
+#main page
 def main():
     if app_mode == "Home":
         home_page()
